@@ -1,0 +1,8 @@
+@charset "utf-8";
+/* 吴英思编写的标签选择器CSS文件 */
+
+div{
+    width: 50%;
+    border: 2px solid black;
+    margin: 50px auto;
+}

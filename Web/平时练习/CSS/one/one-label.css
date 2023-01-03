@@ -1,0 +1,11 @@
+@charset "utf-8";
+/* 吴英思编写的one页面的标签选择器CSS文件 */
+*{
+    margin: 0;
+    padding: 0;
+}
+div{
+    border: 2px solid black;
+    float: left;
+	margin-left: 15px;
+}

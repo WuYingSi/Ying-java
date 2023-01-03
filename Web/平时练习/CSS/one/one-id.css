@@ -1,0 +1,71 @@
+@charset "utf-8";
+/* 吴英思编写的oneHTML的id选择器CSS文件 */
+
+a:hover #sixty-seven1 /* 鼠标处于链接上时的状态 */{
+    color: black;
+}
+a:active #sixty-seven1 /* 链接点击不松开时的状态 */{
+    color: yellow;
+	
+}
+a:link #sixty-seven1 /* 链接的初始状态 */{
+    color: blue;
+}
+a:visited #sixty-seven1 /* 链接点击后的状态 */{
+    color: purple;
+    font-size: 50px;
+}
+ul::after  #sixty-seven1 /* (伪对象)在ul最后添加一句话 */{
+    content: "后添加";
+}
+/* CSS67 */
+div#sixty-seven2{
+    width: 250px;
+    height: 250px;
+    border: 2px solid black;
+    border-radius: 0px;
+    float: left;
+    transition: all .5s;
+}
+ div:hover#sixty-seven2{
+    border-radius: 125px;
+    text-align: center;
+    margin: auto;
+}
+ p#sixty-seven2{
+    margin: 50% auto;
+}
+
+/* 77 CSS盒模型之border拆分 */
+#seventy-seven ul,li{
+	list-style: none;
+}
+#seventy-seven li{
+	margin-bottom: 2px;
+	line-height: 150%;
+	position: relative;
+	padding-left: 12px;
+}
+#seventy-seven ul li::before{
+	font-size: 0;
+	content: "";
+	border-style: solid;
+	border-width: 8px;
+	border-color: transparent transparent transparent blue;
+	position: absolute;
+	left: 0;
+	top: 4px;
+}
+
+/* 81 CSS文本样式text-align */
+#eighty-one .first label{
+    width: 70px;
+    display: inline-block;
+    text-align-last: justify;
+}
+#eighty-one .second{
+    width: 200px;
+    height: 200px;
+    display: table-cell;
+    vertical-align: middle;
+}
