@@ -17,7 +17,7 @@ public class test {
         else if(a % b != 0){
             System.out.println("整数a不被整数b整除");*/
 
-        Scanner sb = new Scanner(System.in);
+    /*    Scanner sb = new Scanner(System.in);
         System.out.println("请输入自己的时髦度（1到10）");
         int my = sb.nextInt();
         if(my >= 1 && my <= 10){
@@ -37,6 +37,28 @@ public class test {
         }
         else{
             System.out.println("输入错误");
+        }*/
+
+        Scanner sb =new Scanner(System.in);
+        System.out.println("请输入第一个整数");
+        int a = sb.nextInt();
+        System.out.println("请输入第二个整数");
+        int b = sb.nextInt();
+        boolean first,second;
+        if((a == 6) || (b == 6)){
+            first = true;
         }
+        else{
+            first = false;
+        }
+        if((a+b)%6 == 0){
+            second = true;
+        }
+        else{
+            second = false;
+        }
+        System.out.println("第一个结果：" + first);
+        System.out.println("第二个结果：" + second);
     }
 }
+
