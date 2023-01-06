@@ -1,10 +1,8 @@
 package base;
 
-import java.util.Scanner;
-
 public class test {
     public static void main(String[] args) {
-        /*System.out.println("我是帅哥");
+      /*System.out.println("我是帅哥");
         //打印
         Scanner sc = new Scanner(System.in);
         System.out.println("请输入一个数");
@@ -17,7 +15,7 @@ public class test {
         else if(a % b != 0){
             System.out.println("整数a不被整数b整除");*/
 
-    /*    Scanner sb = new Scanner(System.in);
+      /*Scanner sb = new Scanner(System.in);
         System.out.println("请输入自己的时髦度（1到10）");
         int my = sb.nextInt();
         if(my >= 1 && my <= 10){
@@ -39,26 +37,27 @@ public class test {
             System.out.println("输入错误");
         }*/
 
-        Scanner sb =new Scanner(System.in);
+      /*Scanner sb = new Scanner(System.in);
         System.out.println("请输入第一个整数");
         int a = sb.nextInt();
         System.out.println("请输入第二个整数");
         int b = sb.nextInt();
-        boolean first,second;
-        if((a == 6) || (b == 6)){
+        boolean first;
+        if((a == 6) || (b == 6) || ((a + b) % 6 == 0)) {
             first = true;
-        }
-        else{
+        } else {
             first = false;
         }
-        if((a+b)%6 == 0){
-            second = true;
-        }
-        else{
-            second = false;
-        }
-        System.out.println("第一个结果：" + first);
-        System.out.println("第二个结果：" + second);
+        System.out.println("结果：" + first);*/
+
+      /*System.out.println("switch");
+        switch (1){
+            case 10:
+                System.out.println("帅哥");
+        }*/
+        int a = 200;
+        byte b = (byte) a;
+        System.out.println(b);
     }
 }
 
