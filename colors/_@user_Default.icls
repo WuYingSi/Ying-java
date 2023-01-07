@@ -3,7 +3,7 @@
     <property name="created">2023-01-06T17:59:45</property>
     <property name="ide">idea</property>
     <property name="ideVersion">2021.2.1.0.0</property>
-    <property name="modified">2023-01-07T23:50:49</property>
+    <property name="modified">2023-01-08T00:16:30</property>
     <property name="originalScheme">Default</property>
     <property name="rainbow 默认语言">true</property>
   </metaInfo>
@@ -18,6 +18,11 @@
       <value>
         <option name="FOREGROUND" value="fae5" />
         <option name="FONT_TYPE" value="3" />
+      </value>
+    </option>
+    <option name="DEFAULT_PARAMETER">
+      <value>
+        <option name="FOREGROUND" value="0" />
       </value>
     </option>
     <option name="HTML_CODE">
