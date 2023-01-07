@@ -58,6 +58,7 @@ public class test {
         int a = 200;
         byte b = (byte) a;
         System.out.println(b);
+
     }
 }
 
